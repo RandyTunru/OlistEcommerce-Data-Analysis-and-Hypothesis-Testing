@@ -6,13 +6,13 @@ Understanding the dynamics of e-commerce operations is crucial for strategic dec
 
 The dataset is sourced from Kaggle's Olist Brazilian E-commerce Dataset, encompassing transactions from March 2016 to August 2018. The data is loaded into an SQLite database with the following key tables:
 
-Orders: Details of each order, including timestamps for various stages.
-Customers: Anonymized customer information and locations.
-Products: Product specifications and categories.
-Sellers: Information on sellers, their locations, and performance metrics.
-Order Items: Breakdown of items within each order, including pricing and shipping costs.
-Order Reviews: Customer feedback and satisfaction scores.
-Payments: Payment methods and transaction details.
+- Orders: Details of each order, including timestamps for various stages.
+- Customers: Anonymized customer information and locations.
+- Products: Product specifications and categories.
+- Product Category Name Translation: English translation of the product category
+- Sellers: Information on sellers, their locations, and performance metrics.
+- Order Items: Breakdown of items within each order, including pricing and shipping costs.
+- Order Payments: Payment details of Orders
 
 # Main Deliverables
 - Cleaned datasets and reproducible SQL queries / notebook cells.
